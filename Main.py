@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
@@ -10,10 +10,10 @@ import json
 album_rating_file = "user_album_ratings.json"
 track_rating_file = "user_track_ratings.json"
 
-load_dotenv(override = True)
+# load_dotenv(override = True)
 
-for k in ("SPOTIPY_CLIENT_ID","SPOTIPY_CLIENT_SECRET","SPOTIPY_REDIRECT_URI"):
-    os.environ.pop(k, None)
+# for k in ("SPOTIPY_CLIENT_ID","SPOTIPY_CLIENT_SECRET","SPOTIPY_REDIRECT_URI"):
+#     os.environ.pop(k, None)
 
 # CLIENT_ID = os.getenv("CLIENT_ID")
 # CLIENT_SECRET = os.getenv("CLIENT_SECRET")
