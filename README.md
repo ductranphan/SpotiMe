@@ -7,8 +7,8 @@ The app connects directly to the Spotify Web API and stores user ratings locally
 - Audio Stats Dashboard — See average song duration, popularity, and more
 - User Ratings (JSON): Rate albums or tracks and save ratings persistently
 - Playlist Generator — Instantly create a Spotify playlist of your top tracks
-- Dynamic Charts & Metrics — Visual summaries of popularities, genres, and release years
 - Streamlit Frontend — Easy-to-deploy interactive web app with modern UI
+- Ratings persist locally for the logged in user. Cloud demo is stateless
 
 🛠️ Technologies Used
 - Python 3
@@ -21,3 +21,4 @@ The app connects directly to the Spotify Web API and stores user ratings locally
 - Add mood & genre clustering
 - Compare stats between users
 - Integrate ReccoBeats API for richer audio features
+- Ratings can save online using FastAPI + database running on Render / Railway
