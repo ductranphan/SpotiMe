@@ -18,7 +18,5 @@ The app connects directly to the Spotify Web API and stores user ratings locally
 - JSON storage for user ratings and local state management
 
 🚀 Future Improvements
-- Add mood & genre clustering
-- Compare stats between users
 - Integrate ReccoBeats API for richer audio features
 - Ratings can save online using FastAPI + database running on Render / Railway
